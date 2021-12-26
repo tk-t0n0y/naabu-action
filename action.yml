@@ -12,12 +12,12 @@ inputs:
 
   ports:
     description: "Ports to scan for (default - Top 100)"
-    required: false
-    default: ""
+    required: True
+    default: "-"
 
   output:
     description: "File to save output result"
-    required: false
+    required: True
     default: "naabu.log"
 
   json:
